@@ -1,0 +1,99 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.FimlCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-radius: 1.5rem;
+  gap: 8px;
+  height: 275px;
+}
+.ListFilms{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 2%;
+}
+p{
+  width: 30rem;
+  text-align: center;
+}
+a{
+  text-decoration:underline;
+  cursor: pointer;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid;
+  padding: 1%;
+}
+.rechercher{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#search{
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+#icone_rechercher{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 24;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+#icone_rechercher,input {
+  border:  1px solid grey;
+  font-size: 2.5rem;
+  
+}
+.ajouter{
+  display: inline;
+  flex-direction: column;
+  gap: 7px;
+}
+.entete{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#icone_ajouter,h4{
+  font-size: 2.5rem;
+}
+#enhaut, #enbas{
+  background-color: none  ;
+  border: none;
+}
+.corps{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  width: inherit;
+  padding: 1%;
+  gap: 10px;
+}
+.elt_corps{
+  font-size: 25px;
+}
+#titre, #note,#Url,#description{
+  font-size: 25px;
+}
